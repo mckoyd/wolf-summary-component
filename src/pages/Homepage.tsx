@@ -1,5 +1,11 @@
 import React from "react";
-import { Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
+import {
+  Button,
+  Grid,
+  Typography,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 import { useHomepageStyles } from "../styles/homepage";
 import ResultsContainer from "../components/ResultsContainer";
 import { testScores } from "../config/homepage.config";
@@ -34,7 +40,7 @@ const Homepage: React.FC = () => {
             item
             container
             direction={"column"}
-            margin={matchesLG ? 0 : "2em"}
+            padding={matchesLG ? 0 : "2em"}
             paddingLeft={matchesLG ? "2em" : undefined}
             width={matchesLG ? "20em" : undefined}
           >
@@ -62,6 +68,9 @@ const Homepage: React.FC = () => {
                   />
                 )
               )}
+            </Grid>
+            <Grid item margin={"1em 0"}>
+              <Button className={classes.continueBtn}>Continue</Button>
             </Grid>
           </Grid>
         </Grid>

@@ -1,4 +1,5 @@
 import { Theme, createTheme } from "@mui/material/styles";
+import { CSSProperties } from "react";
 
 declare module "@mui/material/styles" {
   interface TypeBackground {
@@ -21,6 +22,13 @@ declare module "@mui/material/styles" {
     paleBlue: string;
     lightLavender: string;
     darkGrayBlue: string;
+  }
+
+  interface TypographyVariants {
+    continueBtn: CSSProperties;
+  }
+  interface TypographyVariantsOptions {
+    continueBtn?: CSSProperties;
   }
 }
 
@@ -77,6 +85,17 @@ const theme: Theme = createTheme({
       lineHeight: "23px",
       textAlign: "center",
       color: "#CAC9FF",
+    },
+    continueBtn: {
+      background: "#303B59",
+      borderRadius: "128px",
+      color: "#FFF",
+      width: "100%",
+      padding: "1em 0",
+      textTransform: "none",
+      fontWeight: 700,
+      fontSize: "18px",
+      lineHeight: "23px",
     },
   },
 });

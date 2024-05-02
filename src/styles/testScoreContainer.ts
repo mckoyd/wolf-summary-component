@@ -3,7 +3,6 @@ import { tss } from "tss-react/mui";
 export const useTestScoreContainerStyles = tss.create(({ theme }) => ({
   testSection: {
     borderRadius: "12px",
-    width: "85%",
   },
   testSectionTitle: {
     fontWeight: 500,
