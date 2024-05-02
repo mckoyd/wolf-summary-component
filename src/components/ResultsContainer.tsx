@@ -15,7 +15,7 @@ const ResultsContainer: React.FC = () => {
       alignItems={"center"}
     >
       <Grid item margin={"1em"}>
-        <Typography variant="h2">Your Results</Typography>
+        <Typography className={classes.resultsText}>Your Results</Typography>
       </Grid>
       <Grid
         item

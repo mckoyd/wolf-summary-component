@@ -4,6 +4,7 @@ import { CSSProperties } from "react";
 export const useHomepageStyles = tss.create(({ theme }) => ({
   homepageContainer: {
     height: "100vh",
+    background: "ECF2FF",
   },
   mainContainer: {
     width: "100vw",

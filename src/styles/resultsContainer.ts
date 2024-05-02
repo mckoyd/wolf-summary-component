@@ -13,6 +13,18 @@ export const useResultContainerStyles = tss.create(({ theme }) => ({
       padding: "3.5em 0",
     },
   },
+  resultsText: {
+    fontFamily: "Hanken Grotesk",
+    fontStyle: "normal",
+    fontWeight: "700",
+    fontSize: "18px",
+    lineHeight: "23px",
+    textAlign: "center",
+    color: "#CAC9FF",
+    [theme.breakpoints.up("lg")]: {
+      fontSize: "24px",
+    },
+  },
   resultsCircle: {
     borderRadius: "100%",
     background:
