@@ -52,6 +52,17 @@ const theme: Theme = createTheme({
       persianBlueCircle,
     },
   },
+  typography: {
+    h2: {
+      fontFamily: "Hanken Grotesk",
+      fontStyle: "normal",
+      fontWeight: "700",
+      fontSize: "18px",
+      lineHeight: "23px",
+      textAlign: "center",
+      color: "#CAC9FF",
+    },
+  },
 });
 
 export default theme;
