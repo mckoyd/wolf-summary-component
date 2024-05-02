@@ -10,6 +10,7 @@ export const useResultContainerStyles = tss.create(({ theme }) => ({
     color: theme.palette.common.white,
     [theme.breakpoints.up("lg")]: {
       borderRadius: "32px",
+      padding: "3.5em 0",
     },
   },
   resultsCircle: {

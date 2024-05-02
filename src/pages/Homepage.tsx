@@ -40,8 +40,7 @@ const Homepage: React.FC = () => {
             item
             container
             direction={"column"}
-            padding={matchesLG ? 0 : "2em"}
-            paddingLeft={matchesLG ? "2em" : undefined}
+            padding={matchesLG ? "0 2em" : "2em"}
             width={matchesLG ? "20em" : undefined}
           >
             <Typography
