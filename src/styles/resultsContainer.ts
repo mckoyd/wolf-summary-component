@@ -8,6 +8,9 @@ export const useResultContainerStyles = tss.create(({ theme }) => ({
       "linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%)",
     padding: "1em",
     color: theme.palette.common.white,
+    [theme.breakpoints.up("lg")]: {
+      borderRadius: "32px",
+    },
   },
   resultsCircle: {
     borderRadius: "100%",
