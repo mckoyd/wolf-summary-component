@@ -6,6 +6,10 @@ declare module "@mui/material/styles" {
     lightRoyalBlueBg: string;
     violetBlueCircle: string;
     persianBlueCircle: string;
+    redGradient: string;
+    yellowGradient: string;
+    greenGradient: string;
+    blueGradient: string;
   }
 
   interface CommonColors {
@@ -31,7 +35,15 @@ const lightRed = "hsl(0, 100%, 67%)",
   white = "hsl(0, 0%, 100%)",
   paleBlue = "hsl(221, 100%, 96%)",
   lightLavender = "hsl(241, 100%, 89%)",
-  darkGrayBlue = "hsl(224, 30%, 27%)";
+  darkGrayBlue = "hsl(224, 30%, 27%)",
+  redGradient =
+    "linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555",
+  yellowGradient =
+    "linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E",
+  greenGradient =
+    "linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F",
+  blueGradient =
+    "linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6";
 
 const theme: Theme = createTheme({
   palette: {
@@ -50,6 +62,10 @@ const theme: Theme = createTheme({
       lightRoyalBlueBg,
       violetBlueCircle,
       persianBlueCircle,
+      redGradient,
+      yellowGradient,
+      greenGradient,
+      blueGradient,
     },
   },
   typography: {
